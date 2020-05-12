@@ -8,7 +8,7 @@ I have decided to make a very simple website based only on my skills.
 As you can see it is simple webpage, during doing it I notice codding is improve as you practise it.
 
 ## Wireframe sketch
-![](.image/low_ fidelity_ prototype.jpg)
+![low fidelity prototype](https://user-images.githubusercontent.com/60611886/81702665-7d1dce80-9463-11ea-96b9-fe6cc1bff27d.jpg)
 
 #Development Process
 Making this webresume was a big challenge were days and days of research and learning. I could see my difficulties with CSS.
