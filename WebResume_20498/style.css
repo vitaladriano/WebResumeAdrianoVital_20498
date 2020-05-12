@@ -1,32 +1,33 @@
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+*{
+    font-family: 'Oswald', sans-serif;}
+
+
+
 body {
     margin:0;
     font-family: 'Sacramento', cursive;
-    color: #315f72;
-  background-color: #efb5a3;}
+    color: black;
+    font-size: 1.2rem;
+  background-color: white
+  ;}
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   .container {width:85%; margin:auto; max-width: 1200px;}
     /*Menu*/
   
   /* Add a black background color to the top navigation */
   .topnav {
-    background-color: #efb5a3;
+    background-color: black;
     overflow: hidden;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    color: #315f72;
+    color: #FFD549;
+    font-size: x-large;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -35,14 +36,14 @@ body {
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color:#f57e7e;
-    color:#315f72;
+    background-color:white;
+    color:#FFD549;
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #f57e7e;
-    color: #315f72;
+    background-color: black;
+    color: #FFD549;
   }
   
   /*Menu*/
@@ -54,20 +55,12 @@ body {
   /*Banner*/
   
   
-  /*about section*/
-  
-  .about-section {margin-top: 75px; display: inline-block;}
-  
-  .about-section .image { width: 50%;
-      float: right; text-align: right;}
-  
-  .about-section .text { width: 50%;
-      float: left;}
-  /*about section*/
+
   
   
   /*hr*/
-  .hr {margin-top: 25px; margin-bottom: 25px;}
+  .hr {margin-top: 25px; margin-bottom: 25px;
+       }
   /*hr/
   
   /*work section*/
@@ -108,8 +101,8 @@ body {
   /*skills section*/
   
   /*contact section*/
-  mark {background-color:#f57e7e;
-  color: #315f72;}
+  mark {background-color:#FFD549;
+  color: black;}
   
   
   .contact-section {width:60%; margin: auto;}
@@ -127,25 +120,43 @@ body {
   @media only screen and (max-width: 1024px) {
     
     body {width: 100%; overflow-x: hidden;}
+
   
-  .container {width:95%; margin:auto; max-width: 100%;}
+
+    
+
+
+
+  
+  .container {width:95%;
+     margin:auto;
+      max-width: 100%;}
     /*Menu*/
   
   
   
-  /*about section*/
+ 
+    /*about section*/
+  .about-section {max-width: 100%;
+     margin-top: 75px; 
+     display: inline-block;}
   
-  .about-section {max-width: 100%; margin-top: 75px; display: inline-block;}
+.about-section .image { width: 100%;
+     max-width: 100%;
+      float: none; 
+      text-align: right;}
   
-  .about-section .image { width: 100%; max-width: 100%;
-      float: none; text-align: right;}
-  
-      .about-section .image img{ width: 100%; max-width: 100%;
-     }
-  
-  .about-section .text { width: 100%;
-      float: none;}
-  /*about section*/
+.about-section .image img{ width: 100%;
+         max-width: 100%;
+         height: 100%;
+	width: 100%;
+	position: relative;
+	border: 10px solid #FFD549;
+       }
+.about-section .text { width: 100%;
+      float: none;
+    font-size: large;}
+/*about section*/
   
   
   /*hr*/
@@ -154,16 +165,20 @@ body {
   
   /*work section*/
   
-  .works-section {display: inline-block;}
+  .works-section {
+      display: inline-block;}
   
   .works-section .image {
       float: left; width:100%;}
+      
       .works-section .image img {
-      max-width: 100%;}
+      max-width: 100%;
+      border: 10px solid #FFD549;}
   
   .works-section .text {
       width: 100%;
       max-width: 100%;
+      font-size: 3rem;
   }
   
   .works-section .last {
@@ -173,19 +188,25 @@ body {
   /*work section*/
   
   /*title sections*/
-  .title-sections {width: 100%; text-align: center; margin-bottom: 50px;}
+  .title-sections {width: 100%;
+     text-align: center;
+      margin-bottom: 50px;}
   
   /*title sections*/
   
   
   
   /*skills section*/
-  .skills-img {max-width:100%; width:100%; margin: auto;}
+  .skills-img {max-width:100%; 
+    width:100%; 
+    margin: auto;}
   
   /*skills section*/
   
   /*contact section*/
-  .contact-section {width:100%; margin: auto;}
+  .contact-section {width:100%; 
+    margin: auto;}
+
   .contact-text {    
       float: right;
       width: 100%;
@@ -193,19 +214,33 @@ body {
       text-align: center;
       margin-top: 80px;}
   
-  /*contact section*/
-  
-  
+  /* end contact section*/
+
+
+
+
+/* Footer section  */
+#footer p {
+	color: black;
+	font-size: 1.3rem;
+}
+
+
+/* Footer section  */
+
+
+
+
+
+
   }
-  
-  
   .javasc-style {position: absolute;
       text-align: center;
       width: 100%;
       font-size: 26px;
       font-weight: bold;
       margin-top: -150px;
-      color:#315f72;}
+      color:#FFD549;}
   
   
   .ml2 {
@@ -218,4 +253,3 @@ body {
     display: inline-block;
     line-height: 1em;
   }
-  
